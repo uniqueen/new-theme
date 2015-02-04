@@ -10,9 +10,13 @@
     <!-- Le styles -->
    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
   </head>
-     <?php
-
-      wp_nav_menu(array( 'theme_location' => 'header_menu','container_id'=>'header_menu') );
-
-?>
+  <body>
+    <?php
+        wp_nav_menu(array( 
+          'theme_location' => 'header_menu',
+          'container_id'=>'header_menu'
+        ) );
+    ?>
+  </body>
+     
 </html>
